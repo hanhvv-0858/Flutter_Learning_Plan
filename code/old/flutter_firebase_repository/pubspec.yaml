@@ -1,0 +1,21 @@
+name: flutter_firebase_repository
+description: A project that interacts with a firestore database.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_lib:
+    path: ../shared_lib
+  firebase_auth: ^0.6.0
+  cloud_firestore: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
